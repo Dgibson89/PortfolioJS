@@ -824,6 +824,10 @@ section {
   }
 
   .left-about {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: start;
     padding-right: 5rem;
     p {
       line-height: 2rem;

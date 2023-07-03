@@ -815,6 +815,10 @@ section {
     background-color: var(--color-grey-5);
   }
   .about-container .left-about {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: start;
     padding-right: 5rem;
   }
   .about-container .left-about p {

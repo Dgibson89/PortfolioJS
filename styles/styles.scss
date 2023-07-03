@@ -777,7 +777,7 @@ section {
   /*About*/
 .about-container {
   display: flexbox;
-  grid-template-columns: repeat(1, 1fr);
+  align-content: flex-start;
   padding-top: 3.5rem;
   padding-bottom: 5rem;
   .right-about {
@@ -825,6 +825,8 @@ section {
 
   .left-about {
     padding-right: 5rem;
+    // display: flexbox;
+    // align-items: flex-start;
     p {
       line-height: 2rem;
       padding: 1rem;

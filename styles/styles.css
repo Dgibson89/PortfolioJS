@@ -694,12 +694,23 @@ section {
   transition: all 0.4s ease-out;
 }
 
+.email-btn {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+  font-weight: 800;
+  font-size: 1rem;
+  border: 1px solid var(--color-secondary);
+}
+
 .main-title {
   text-align: center;
 }
 .main-title h2 {
   position: relative;
-  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 6.3rem;
   font-size: 4rem;
   font-weight: 700;
 }

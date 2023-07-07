@@ -799,7 +799,15 @@ section {
     padding-top: 3.5rem;
     padding-bottom: 5rem;
     display: grid;
-    grid-template: 400px/400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "text text ." "text text ." "button button .";
+  }
+  .about-container .left-about p {
+    grid-area: text;
+  }
+  .about-container .btn-con {
+    grid-area: button;
   }
   .about-container .right-about {
     display: none;

@@ -811,8 +811,8 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-      "text text ."
-      "text text ."
+      "text text text"
+      "text text text"
       "button button .";
     .left-about p {
       grid-area: text;

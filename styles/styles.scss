@@ -808,7 +808,7 @@ section {
     padding-top: 3.5rem;
     padding-bottom: 5rem;
     display: grid;
-    grid-template: 400px / 400px;
+    grid-template-columns: 1 1fr;
 
     .right-about {
       display: none;

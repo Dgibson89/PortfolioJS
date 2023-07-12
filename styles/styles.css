@@ -314,6 +314,7 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px;
+  box-shadow: 0 0 5px var(--color-secondary);
 }
 .portfolios .portfolio-item .hover-items {
   width: 100%;

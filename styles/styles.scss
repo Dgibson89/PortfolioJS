@@ -633,19 +633,19 @@ section {
     .header-content {
       grid-template-columns: 1fr; /* Change the grid layout to a single column */
       text-align: center;
-      .left-header {
-        .h-shape {
-          display: none; /* Hide the shape element on smaller screens */
-        }
-        .image {
-          width: 80%; /* Adjust the width of the image */
-          margin: 0 auto; /* Center the image horizontally */
-        }
-      }
-      .right-header {
-        padding: 0; /* Remove right padding on smaller screens */
-        margin-top: 2rem; /* Add some top margin for spacing */
-      }
+    }
+
+    .left-header {
+      display: none; /* Hide the left header content on smaller screens */
+    }
+
+    .right-header {
+      padding: 0; /* Remove padding on smaller screens */
+      margin-top: 2rem; /* Add top margin for spacing */
+    }
+
+    .right-header .name {
+      font-size: 2.5rem; /* Adjust the font size of the name on smaller screens */
     }
 
     .about-container {

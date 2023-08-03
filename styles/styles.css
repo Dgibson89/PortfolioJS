@@ -669,70 +669,46 @@ section {
     grid-template-columns: 1fr; /* Change the grid layout to a single column */
     grid-gap: 1.5rem; /* Adjust the gap between portfolio items */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .portfolio-item {
     margin-bottom: 2rem; /* Add bottom margin for spacing */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .hover-items {
     padding: 1.5rem; /* Adjust the padding of hover items */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .hover-items .icons {
     flex-direction: row; /* Align icons horizontally */
     justify-content: center;
     margin-top: 1rem; /* Add top margin for spacing */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .portfolios {
     grid-template-columns: 1fr; /* Change the grid layout to a single column */
     grid-gap: 1.5rem; /* Adjust the gap between portfolio items */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .portfolio-item {
     margin-bottom: 2rem; /* Add bottom margin for spacing */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .hover-items {
     padding: 1.5rem; /* Adjust the padding of hover items */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .hover-items .icons {
     flex-direction: row; /* Align icons horizontally */
     justify-content: center;
     margin-top: 1rem; /* Add top margin for spacing */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .contact-content-con {
     flex-direction: column; /* Change the flex direction to a single column */
     align-items: center; /* Center the contact content vertically */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .left-contact {
     margin-bottom: 2rem; /* Add bottom margin for spacing */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .right-contact {
     margin-left: 0; /* Remove left margin on smaller screens */
     padding-right: 0; /* Remove right padding on smaller screens */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .input-control {
     width: 100%; /* Set the width of input controls to 100% */
   }
-}
-@media (min-width: 320px) and (max-width: 768px) {
   .submit-btn {
     justify-content: center; /* Center the submit button horizontally */
     margin-top: 1rem; /* Add top margin for spacing */
